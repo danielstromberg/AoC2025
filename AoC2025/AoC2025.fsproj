@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="input\sample\Day01.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="input\sample\Day02.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="input\sample\Day03.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="input\private\Day01.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="input\private\Day02.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="input\private\Day03.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Compile Include="Day1.fs" />
+        <Compile Include="Day2.fs" />
+        <Compile Include="Day3.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
