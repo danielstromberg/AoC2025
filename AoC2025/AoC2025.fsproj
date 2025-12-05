@@ -18,6 +18,9 @@
         <Content Include="input\sample\Day04.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
+        <Content Include="input\sample\Day05.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
         <Content Include="input\private\Day01.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
@@ -30,10 +33,14 @@
         <Content Include="input\private\Day04.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
+        <Content Include="input\private\Day05.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
         <Compile Include="Day1.fs" />
         <Compile Include="Day2.fs" />
         <Compile Include="Day3.fs" />
         <Compile Include="Day4.fs" />
+        <Compile Include="Day5.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
