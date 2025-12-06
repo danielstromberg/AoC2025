@@ -1,7 +1,7 @@
 ﻿open System.IO
 open AoC2025
 
-let input = File.ReadAllLines "./input/private/Day05.txt"
+let input = File.ReadAllLines "./input/private/Day06.txt"
 
-Day5.partOne input |> printfn "%s"
-Day5.partTwo input |> printfn "%s"
+Day6.partOne input |> printfn "%s"
+Day6.partTwo input |> printfn "%s"
